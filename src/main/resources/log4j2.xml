@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d [%p] %c{4} – %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <!-- Define the log level: INFO, DEBUG,.. -->
+        <Root level="DEBUG">
+            <AppenderRef ref="Console"/>
+        </Root>
+        <!-- You can specify log ouput by package and log level (WARN, OFF,..) -->
+        <Logger name="com.audatex" level="WARN" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="org.apache" level="WARN" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="org.springframework" level="WARN" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="com.amazonaws" level="WARN" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+    </Loggers>
+</Configuration>
