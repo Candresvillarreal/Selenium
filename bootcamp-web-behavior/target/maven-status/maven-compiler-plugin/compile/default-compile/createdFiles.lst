@@ -1,0 +1,11 @@
+com\solera\global\qa\bootcamp\web\behavior\core\behaviour\cart\BehaviourCart.class
+com\solera\global\qa\bootcamp\web\behavior\core\behaviour\inventory\BehaviourInventory.class
+com\solera\global\qa\bootcamp\web\behavior\data\types\User.class
+com\solera\global\qa\bootcamp\web\behavior\core\BootcampWebBehavior.class
+com\solera\global\qa\bootcamp\web\behavior\core\utilities\Utilities.class
+com\solera\global\qa\bootcamp\web\behavior\pages\loginpage\CartPage.class
+com\solera\global\qa\bootcamp\web\behavior\pages\loginpage\InventoryPage.class
+com\solera\global\qa\bootcamp\web\behavior\pages\loginpage\LoginPage.class
+com\solera\global\qa\bootcamp\web\behavior\core\behaviour\login\BehaviourLogin.class
+com\solera\global\qa\bootcamp\web\behavior\data\BootcampWebPropertiesReader.class
+com\solera\global\qa\bootcamp\web\behavior\core\behaviour\login\BehaviourLogOut.class
